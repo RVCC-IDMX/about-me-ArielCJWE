@@ -1,0 +1,27 @@
+body {
+    font-family: Neuton;
+    font-size: 20pt;
+background-color: #65d6ab;
+color: #8A3625;
+
+}
+h1, h2, h3, h4, h5, h6 {
+font-family: Lobster;
+font-size: 40pt;
+}
+header {
+    text-align: center;
+}
+#intro, footer {
+    background-color: #8A3625;
+    color: #65d6ab;
+    border: 5px;
+    border-style: double;
+    text-align: center;
+}
+#intro img {
+    width: 200pt;
+}
+#bio {
+    text-align: center;
+}
