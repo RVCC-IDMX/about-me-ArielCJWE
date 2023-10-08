@@ -39,3 +39,27 @@ header {
     border-style: dotted;
     font-variant: small-caps;
 }
+#photogallery { border :2px solid #7A92F0;}
+#photogallery2 { border :2px solid #7A92F0;
+background-color: #BD874D;}
+#photogallery3 { border :2px solid #7A92F0;}
+#photogallery img{
+    width: 350px;
+    border-style: groove;
+    border-width: 10px;
+    border-color: #7A92F0;
+    
+}
+#photogallery2 img{
+    width: 350px;
+    border-style: groove;
+    border-width: 10px;
+    border-color: #7A92F0;
+
+}
+#photogallery3 img{
+    width: 350px;
+    border-style: groove;
+    border-width: 10px;
+    border-color: #7A92F0;
+}
