@@ -7,8 +7,11 @@ color: #390F8A;
 }
 h1, h2, h3, h4, h5, h6 {
 font-family: Lobster;
-font-size: 40pt;
+font-size: 30px;
+text-align: center;
 }
+h1 {font-size: 40px;}
+
 header {
     text-align: center;
 }
@@ -25,4 +28,14 @@ header {
 }
 #bio {
     text-align: center;
+}
+#hobbies {
+   text-align: justify; 
+   border-style: dashed;
+   background-color: #BD874D;
+    color: #390F8A;
+    ;
+    border: 5px;
+    border-style: dotted;
+    font-variant: small-caps;
 }
