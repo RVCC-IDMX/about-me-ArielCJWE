@@ -153,3 +153,13 @@ figure img {
     figure {
         display: block;}
 } 
+
+@media screen and (min-width: 100em) {
+    
+
+#video{
+width: 200pt;
+}
+
+
+}
