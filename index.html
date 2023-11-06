@@ -121,10 +121,63 @@
 <p>"So, so!" I thought to myself, "this is the second time he has suddenly stopped at the word 'drink'; what does it mean?" Renfield seemed himself aware of having made a lapse, for he hurried on, as though to distract my attention from it:--</p>
     
     </div>
-
-
-
 </article>
+
+<section id="contact">
+    <h2> Contact Us!</h2>
+    <form id="contactform" name="contactform" method="post" data-netlify="true">
+<fieldset>
+    <legend>
+    Contact Form
+    </legend>
+        <div id="formelements">
+    
+            <label for="Name">Name (Required)</label>
+            <input type="text" id="Name" name="Name" required>
+
+            <label for="email">Email (Required)</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="telephone">Telephone (Optional)</label>
+            <input type="tel" id="telephone" name="telephone">
+
+            <label for="phonetype">Email (Required)</label>
+            <select id="phonetype" name="phonetype">
+                <option value="default" selected>Select Phone Type</option>
+                <option value="mobile">Mobile</option>
+                <option value="telephone"> Telephone</option>
+                <option value="work">Work</option>
+                <option value="home">Home</option>
+            </select>
+
+            <label for="Message">Your Comments! (Optional)</label>
+            <textarea id="Message" name="Message" rows="8"> Please Comment! </textarea>
+          
+            <fieldset>
+                <legend> Would You Like A Reply?</legend>
+
+                <ul>
+                    <li>
+                        <input type="radio" id="message-yes" name="reply" value="yes-a-reply-please">                        
+                        <label for="message-yes"> A reply would be amazing!
+                        </label>
+                        </li>
+                    <li> 
+                        <input type="radio" id="message-no" name="reply" checked value="No-reply-please">
+                       <label for="message-no">
+                        No thank you.</label>
+                    </li>
+
+                </ul>
+            </fieldset>
+
+            <button type="submit">Send</button>
+
+        </div>
+</fieldset>
+
+    </form>
+        </section>
 
     </main>
 <footer>
