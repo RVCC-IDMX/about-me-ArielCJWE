@@ -208,4 +208,6 @@ border: 1px dotted #BD874D;
 max-width: 400pt;
 justify-content: center;
 border-radius: 2rem;
+font-variant: small-caps;
+font-size: larger;
 }
