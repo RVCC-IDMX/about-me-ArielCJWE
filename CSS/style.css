@@ -167,5 +167,45 @@ width: 200pt;
 #formelements {
 
     display: grid;
+    row-gap: .5em;
+    align-items: center;
+}
 
+#contact {
+padding: 2rem;
+max-width: 600px;
+margin: 2rem auto;
+}
+
+fieldset {
+    border: double #BD874D;
+    box-shadow: 5px;
+    margin-bottom: 1em;
+    border-radius: 4rem;
+}
+
+legend {
+background-color:#BD874D;
+color: #F2DDB8;
+padding: .5em;
+border-radius: 2rem;
+}
+
+#contact input, #contact textarea, #contact select, #contact button {
+padding: .5em;
+font-size: 1rem;
+
+}
+
+#contact li {
+    margin: 1rem;
+}
+
+#contact button {
+background-color: #BD874D;
+color: #F2DDB8;
+border: 1px dotted #BD874D;
+max-width: 400pt;
+justify-content: center;
+border-radius: 2rem;
 }
