@@ -28,7 +28,7 @@ main {
 /* navbar */
 
 .navbar {
-    background-color: #7A92F0;
+    background-color: #BD874D;
     color: brown;
     display: flex;
     flex-direction: column;
@@ -54,13 +54,27 @@ align-items: center;
 
 /* navigation list */
 
+.navbar-links li {
+list-style: none;
+display: block;
+padding: 0.5em 0;
+}
 
 /*  
  style all a tags in header 
  and then on hover
 */
 
+.navbar-links a {
 
+    color: brown ;
+    background-attachment: #BD874D;
+    font-size:1.75rem;
+    padding: .5rem 1rem;
+    letter-spacing: 2px;
+    text-decoration: none;
+    display: inline-block;
+}
 
 
 
