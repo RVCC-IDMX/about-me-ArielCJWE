@@ -68,12 +68,22 @@ padding: 0.5em 0;
 .navbar-links a {
 
     color: brown ;
-    background-attachment: #BD874D;
+    background-color: #BD874D;
     font-size:1.75rem;
     padding: .5rem 1rem;
     letter-spacing: 2px;
     text-decoration: none;
     display: inline-block;
+    font: bold;
+}
+
+.navbar-links a:hover,
+.navbar-links a:focus {
+
+    color:#BD874D ;
+    background-color: brown ;
+    border-radius: 15px;
+
 }
 
 
