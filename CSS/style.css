@@ -278,4 +278,15 @@ font-size: larger;
   .img-wrapper:hover > .content.fade {
     opacity: 1;
   }
+
+/* Adding style to hover explanation images*/
+
+  #Hover1 img, #Hover2 img, #Hover3 img {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    border-radius: 1rem;  }
+
+  #Hover1, #Hover2, #Hover3 {
+    margin-top: 2rem; }
+
   
