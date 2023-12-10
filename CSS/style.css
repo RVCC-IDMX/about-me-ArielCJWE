@@ -281,10 +281,18 @@ font-size: larger;
 
 /* Adding style to hover explanation images*/
 
-  #Hover1 img, #Hover2 img, #Hover3 img {
+  #Hover1 img, #Hover3 img {
+    width: 50%;
     margin-top: 1rem;
     margin-bottom: 2rem;
     border-radius: 1rem;  }
+
+    #Hover2 img {
+        width: 45%;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    border-radius: 1rem; 
+    }
 
   #Hover1, #Hover2, #Hover3 {
     margin-top: 2rem; }
