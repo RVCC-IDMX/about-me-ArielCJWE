@@ -297,4 +297,19 @@ font-size: larger;
   #Hover1, #Hover2, #Hover3 {
     margin-top: 2rem; }
 
-  
+    /* Adding Media screen for the hover explanation images*/
+
+    @media screen and (min-width : 60em) {
+        
+        #Hover1 img, #Hover2 img, #Hover3 img {
+        display: flex;
+    justify-self: center;
+    align-items: center;
+    font-size: 3rem;
+    font-variant: small-caps;
+    margin-left: .1rem;
+    }
+    
+    #Hover1 img, #Hover3 img {
+        width: 50%;}
+    }
