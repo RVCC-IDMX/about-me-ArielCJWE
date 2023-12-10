@@ -22,67 +22,56 @@ header {
     text-align: center;
 }
 
-#intro, footer {
+#intro {
     background-color: #BD874D;
     color: #390F8A;
-    ;
-    border: 5px;
+    border: 2px;
     border-style: double;
     text-align: center;
 }
 
+footer {
+    background-color: #A36D0E;
+    color: black;
+    border: 2px;
+    border-style: double;
+    border-color: #390F8A ;
+    text-align: center;
+    
+}
 #intro img {
     width: 200pt;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+    border-radius: 50rem;
+    
 }
 
 #bio {
     text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
 }
 
 #hobbies {
-    text-align: justify;
-   border-style: dashed;
+    text-align: center;
+   border-style: solid;
    background-color: #BD874D;
     color: #390F8A;
     margin: 10px;
     display: flex; 
-flex-direction: column; 
-align-items: center;
+    flex-direction: column; 
+    align-items: center;
     border-style: dotted;
     font-variant: small-caps;
+  
 }
-
-#photogallery { 
-    border :2px solid #7A92F0; }
-
-#photogallery2 { 
-    border :2px solid #7A92F0;
-background-color: #BD874D; }
-
-#photogallery3 { 
-    border :2px solid #7A92F0;}
 
 #photogallery img{
     width: 50%;
     border-style: groove;
     border-width: 10px;
-    border-color: #7A92F0;
-    
-}
-#photogallery2 img{
-    width: 50%;
-    border-style: groove;
-    border-width: 10px;
-    border-color: #7A92F0;
-
-}
-
-#photogallery3 img{
-    width: 50%;
-    border-style: groove;
-    border-width: 10px;
-    border-color: #7A92F0;
-}
+    border-color: #7A92F0;}
 
 #Lit{
 font-variant: small-caps;
@@ -130,28 +119,21 @@ figure img {
    
     #photogallery {
         display: grid;
-        grid-template-columns: 1fr;
-    align-items: center; }
-       
-    #photogallery2 {
-        display: grid;
-            grid-template-columns: 1fr ;
-        align-items: center;}
-           
-        #photogallery3 {
-            display: grid;
-                grid-template-columns: 1fr ;
-            align-items: center;}
-   
-            hr {
-                display: none;}
-   
-    #photogallery h2 {
-        grid-column: 1/-1;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 
+    hr{
+        display: none;
+    }
+
+    #photogallery h3 {
+        grid-column: 1/-1;
+    }
+       
+    
     figure {
         display: block;}
+
 } 
 
 @media screen and (min-width: 100em) {

@@ -12,8 +12,8 @@ h1 {
 }
 body {
     font-family: neuton;
-    --color1: #FFF ;
-    --color2: brown ;
+    --color1: #F2DDB8;
+    --color2: #A36D0E ;
 }
 .nav-bar {
     width: 100%;
@@ -23,7 +23,7 @@ body {
     list-style: none;
     position: relative;
     background-color: var(--color2);
-    padding: 12px 20px;
+    padding: 6px 10px;
 }
 .logo {
     display: flex;
@@ -39,7 +39,7 @@ body {
     }
     
 .menu {display: flex;}
-.menu li {padding-left: 30px;}
+.menu li {padding-left: 100px;}
 .menu li a {
     display: inline-block;
     text-decoration: none;
