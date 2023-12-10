@@ -1,19 +1,21 @@
-
+/* Scolling over the page once a pecific nav link was selected*/
 html{
     scroll-behavior: smooth;
 }
+/* Ensures the nav bar is flushed against the top of the page*/
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+/* Styling of the nav-bar*/
 h1 {
     color: #F2DDB8;
 }
 body {
     font-family: neuton;
     --color1: #F2DDB8;
-    --color2: #A36D0E ;
+    --color2: #A36D0E;
 }
 .nav-bar {
     width: 100%;
@@ -25,6 +27,9 @@ body {
     background-color: var(--color2);
     padding: 6px 10px;
 }
+
+/*Styling of the logo*/
+
 .logo {
     display: flex;
     align-items: center;
@@ -37,7 +42,7 @@ body {
     .logo h1 {
         font-size: 1.2em;
     }
-    
+    /*Styling the menu*/
 .menu {display: flex;}
 .menu li {padding-left: 100px;}
 .menu li a {
@@ -67,17 +72,22 @@ body {
     font-size: 1.5rem;
     display: none;
 }
+
+/*Adding the transition of opening and closing the hamburger menu*/
 .open-menu {
     top: 50%;
     right: 20px;
     transform: translateY(-50%);
+   
 }
 .close-menu {
     top: 20px;
     right: 20px;
 }
+
+/* Adding a media query to ensure the hamburger menu only appears on smaller screens*/
 #check {display: none;}
-@media(max-width: 610px){
+@media screen and (max-width: 60em){
     .menu {
         flex-direction: column;
         align-items: center;
@@ -90,7 +100,9 @@ body {
         z-index: 100;
         background-color: var(--color2);
         transition: all 0.2s ease-in-out;
+        opacity: 90%;
     }
+
     .menu li {margin-top: 40px;}
     .menu li a {padding: 10px;}
     .open-menu , .close-menu {display: block;}

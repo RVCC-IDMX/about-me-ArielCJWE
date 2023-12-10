@@ -1,3 +1,4 @@
+/* Adding style to the body of the website*/
 body {
     font-family: Neuton;
     font-size: 20pt;
@@ -5,7 +6,7 @@ background-color: #F2DDB8;
 color: #390F8A;
 
 }
-
+/* Adding style to the headers within the website */
 h1, h2, h3, h4, h5, h6 {
 font-family: Lobster;
 font-size: 30px;
@@ -21,7 +22,7 @@ h1 {
 header {
     text-align: center;
 }
-
+/* Style to the intro and video section only of the website*/
 #intro, #video {
     background-color: #BD874D;
     color: #390F8A;
@@ -32,7 +33,7 @@ header {
 }
 
 
-
+/* Styling the footer*/
 footer {
     background-color: #A36D0E;
     color: black;
@@ -42,6 +43,9 @@ footer {
     text-align: center;
     
 }
+
+/* Styling the image within the intro section*/
+
 #intro img {
     width: 200pt;
     margin-bottom: 5rem;
@@ -49,6 +53,8 @@ footer {
     border-radius: 50rem;
     
 }
+
+/* Adding style to the Bio, Hobbies, Lit and Photogallery by making a few changes to the margin, padding, etc */
 
 #bio {
     text-align: center;
@@ -93,6 +99,8 @@ max-width: 100%;
 columns: 20rem;
 }
 
+/* Adding a block letter style to the first letter of the liturature paragraph */
+
 #Lit div p:first-child:first-letter {
     color: #390F8A;
     float: left;
@@ -106,6 +114,8 @@ background-color: BROWN;
 text-shadow: 5px;
 
 }
+
+/* Ensuring that the webpage would be responsive to different sized screens */
 
 @media screen and (min-width : 60em) {
     figure {
@@ -160,6 +170,8 @@ iframe{
     border-style: dotted;
 }
 
+/* Styling the contact form */
+
 #formelements {
 
     display: grid;
@@ -172,7 +184,7 @@ padding: .5rem;
 max-width: 600px;
 margin: 2rem auto;
 }
-
+/* changing the box shape of the contact form*/
 fieldset {
     
     border: double #BD874D;
@@ -198,7 +210,7 @@ font-size: 1rem;
     margin: 2rem;
     list-style: none;
 }
-
+/* Changing the style of the contact form*/
 #contact button {
 background-color: #BD874D;
 color: #F2DDB8;
@@ -210,25 +222,28 @@ border-radius: 1rem;
 font-variant: small-caps;
 font-size: larger;
 }
+/* Adding style to the hover Explanation*/
+#HoverE {
+    text-align: center;
+    border-style: ridge;
+    border-color: #390F8A ;
+    background-color: darkgrey;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    padding: 2rem;
+}
 
+/* Start of the hover effect styling*/
 .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat( auto-fit, minmax(300px, 1fr));
   }
   
   .img-wrapper {
     position: relative;
     overflow: hidden;
   }
-  
-  .img-wrapper > img {
-    display: block;
-    width: 100%;
-    aspect-ratio: 1 / 1;
-    object-fit: cover;
-    object-position: center;
-  }
-  
+  /* Styling the content */
   .img-wrapper > .content {
     position: absolute;
     inset: 0;
@@ -239,12 +254,12 @@ font-size: larger;
     justify-content: center;
     align-items: center;
   }
-  
+  /* Adding transition speed*/
   .img-wrapper > img,
   .img-wrapper > .content {
     transition: 200ms ease-in-out;
   }
-  
+  /* Styling the hover itself*/
   .img-wrapper:hover > img.blur {
     filter: blur(4px);
   }
@@ -256,7 +271,7 @@ font-size: larger;
   .img-wrapper:hover > img.zoom {
     transform: scale(1.1);
   }
-  
+  /* Changes in fading while hovering over the image*/
   .img-wrapper > .content.fade {
     opacity: 0;
   }
