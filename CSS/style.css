@@ -185,25 +185,26 @@ fieldset {
     
     border: double #BD874D;
     box-shadow: 5px;
-    margin-bottom: 2em;
+    margin-bottom: 5rem;
     border-radius: 4rem;
 }
 
 legend {
 background-color:#BD874D;
 color: #F2DDB8;
-padding: .5em;
-border-radius: 2rem;
+padding: 2rem;
+border-radius: 4rem;
 }
 
 #contact input, #contact textarea, #contact select, #contact button {
-padding: .5em;
+padding: .5rem;
 font-size: 1rem;
 
 }
 
 #contact li {
     margin: 2rem;
+    list-style: none;
 }
 
 #contact button {
@@ -211,7 +212,8 @@ background-color: #BD874D;
 color: #F2DDB8;
 border: 1px dotted #BD874D;
 max-width: 400pt;
-justify-content: center;
+justify-self: center;
+width: 50%;
 border-radius: 1rem;
 font-variant: small-caps;
 font-size: larger;
